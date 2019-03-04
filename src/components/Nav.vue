@@ -78,7 +78,8 @@
 .mainNav {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: var(--page-width);
   margin: 0 auto;
   padding: 20px 10px;
@@ -101,7 +102,8 @@
   border-radius: 3px;
   display: flex;
   font-size: 14px;
-  height: 50px;
+  height: 45px;
+  margin: 10px auto;
 
   i {
     color: rgba(0, 0, 0, 0.4);
@@ -113,7 +115,8 @@
     background-color: transparent;
     border: none;
     margin-left: 5px;
-    padding: 0 5px 3px;
+    min-width: 180px;
+    padding: 0 5px;
     width: 30vw;
 
     &:focus {
